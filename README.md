@@ -77,7 +77,7 @@ forge test
 In order to avoid constant warnings about checksum mismatches with [svm-rs](https://github.com/roynalnaruto/svm-rs)
 managed `solc` we set `FOUNDRY_SRC` to solc installed via flake.nix.
 
-- To use the contrats from rust generate the rust contracts bindings: `just update-contract-bindings`.
+- To use the contracts from rust generate the rust contracts bindings: `just update-contract-bindings`.
 
 To generate documentation in `./docs` for solidity code run
 
